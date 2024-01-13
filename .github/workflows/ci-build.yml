@@ -20,6 +20,7 @@ jobs:
         env:
           POSTGRES_PASSWORD: pgs3cr3t
           POSTGRES_DB: testdb
+          ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
         options: >-
           --health-cmd pg_isready
           --health-interval 10s
